@@ -1,0 +1,456 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Test Negative Case SignUp Page",
+        "description": "",
+        "id": "check-the-signup-functionality;test-negative-case-signup-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13112966153,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application",
+            "match": {
+              "location": "loginPage.login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228303633,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Any Invalid Value in the following field:ABC dhruv123@gmail.com Temp@12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABC",
+                  "offset": 47
+                },
+                {
+                  "val": "dhruv123@gmail.com",
+                  "offset": 51
+                },
+                {
+                  "val": "Temp@12345",
+                  "offset": 70
+                }
+              ],
+              "location": "loginPage.enter_Any_Invalid_Value_in_the_following_field(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3822059326,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the Username Error message scenario1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scenario1",
+                  "offset": 36
+                }
+              ],
+              "location": "loginPage.validate_the_Username_Error_message(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Test Negative Case SignUp Page",
+        "description": "",
+        "id": "check-the-signup-functionality;test-negative-case-signup-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13090073467,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to the application",
+            "match": {
+              "location": "loginPage.login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208401428,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Any Invalid Value in the following field:abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz dhruv456@gmail.com Temp@12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz",
+                  "offset": 47
+                },
+                {
+                  "val": "dhruv456@gmail.com",
+                  "offset": 100
+                },
+                {
+                  "val": "Temp@12345",
+                  "offset": 119
+                }
+              ],
+              "location": "loginPage.enter_Any_Invalid_Value_in_the_following_field(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3758816205,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the Username Error message scenario2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scenario2",
+                  "offset": 36
+                }
+              ],
+              "location": "loginPage.validate_the_Username_Error_message(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Test Negative Case SignUp Page",
+        "description": "",
+        "id": "check-the-signup-functionality;test-negative-case-signup-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13487264148,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Login to the application",
+            "match": {
+              "location": "loginPage.login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222657563,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Any Invalid Value in the following field:ijnsda123 dhruv123 Temp@12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ijnsda123",
+                  "offset": 47
+                },
+                {
+                  "val": "dhruv123",
+                  "offset": 57
+                },
+                {
+                  "val": "Temp@12345",
+                  "offset": 66
+                }
+              ],
+              "location": "loginPage.enter_Any_Invalid_Value_in_the_following_field(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3677037374,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate the Email Error message scenario1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scenario1",
+                  "offset": 33
+                }
+              ],
+              "location": "loginPage.validate_the_Email_Error_message(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Test Negative Case SignUp Page",
+        "description": "",
+        "id": "check-the-signup-functionality;test-negative-case-signup-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11689280963,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Login to the application",
+            "match": {
+              "location": "loginPage.login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256383134,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Any Invalid Value in the following field:ijnsda456 dhruv123@xxz.com@xzz.com Temp@12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ijnsda456",
+                  "offset": 47
+                },
+                {
+                  "val": "dhruv123@xxz.com@xzz.com",
+                  "offset": 57
+                },
+                {
+                  "val": "Temp@12345",
+                  "offset": 82
+                }
+              ],
+              "location": "loginPage.enter_Any_Invalid_Value_in_the_following_field(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3739128480,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate the Email Error message scenario2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scenario2",
+                  "offset": 33
+                }
+              ],
+              "location": "loginPage.validate_the_Email_Error_message(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Test Negative Case SignUp Page",
+        "description": "",
+        "id": "check-the-signup-functionality;test-negative-case-signup-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14681684015,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Login to the application",
+            "match": {
+              "location": "loginPage.login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173442608,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter Any Invalid Value in the following field:ijnsda123 dhruv123@gmail.com temp12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ijnsda123",
+                  "offset": 47
+                },
+                {
+                  "val": "dhruv123@gmail.com",
+                  "offset": 57
+                },
+                {
+                  "val": "temp12",
+                  "offset": 76
+                }
+              ],
+              "location": "loginPage.enter_Any_Invalid_Value_in_the_following_field(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5784623835,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate the Password Error message scenario1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scenario1",
+                  "offset": 36
+                }
+              ],
+              "location": "loginPage.validate_the_Password_Error_message(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Test Negative Case SignUp Page",
+        "description": "",
+        "id": "check-the-signup-functionality;test-negative-case-signup-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12639614169,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Login to the application",
+            "match": {
+              "location": "loginPage.login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178916142,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter Any Invalid Value in the following field:ijnsda123 dhruv456@gmail.com temp",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ijnsda123",
+                  "offset": 47
+                },
+                {
+                  "val": "dhruv456@gmail.com",
+                  "offset": 57
+                },
+                {
+                  "val": "temp",
+                  "offset": 76
+                }
+              ],
+              "location": "loginPage.enter_Any_Invalid_Value_in_the_following_field(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5790329421,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate the Password Error message scenario2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scenario2",
+                  "offset": 36
+                }
+              ],
+              "location": "loginPage.validate_the_Password_Error_message(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check the SignUp functionality",
+    "description": "",
+    "id": "check-the-signup-functionality",
+    "keyword": "Feature",
+    "uri": "Features/SignUpTestCase.feature"
+  }
+]
